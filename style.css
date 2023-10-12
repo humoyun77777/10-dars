@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 48px;
+}
+
+.navbar-button button {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-body button {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-body {
+    background: var(--Blue, #0075FF);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 100% */
+    letter-spacing: -1.5px;
+
+    width: 458px;
+
+    padding-top: 459px;
+    padding-bottom: 80px;
+}
+
+#birinchi {
+    background: url('img/first-bg.png') lightgray 50% / cover no-repeat;
+
+}
+
+
+.house img {
+    width: 800px;
+    height: 300px;
+}
+
+.plaj img {
+    height: 300px;
+    width: 400px;
+}
